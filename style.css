@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap') ;
+* {
+box-sizing : border-box;
+}
+body {
+margin : 0%;
+background-color : #ccd5ff;
+color : #1d2131;
+}
+main {
+display : flex;
+flex-direction : column;
+width : 50%;
+margin : auto;
+}
+.card-container {
+background-color : #e4e9feda;
+display : flex;
+flex-direction : column;
+padding : 1rem;
+width : 30%;
+height : 100%;
+}
+.card-img {
+width : 100%;
+height : 100%;
+padding : 0;
+border-radius : 0.65rem;
+}
+h2 {
+font-size : 1rem;
+text-transform : uppercase;
+color : #4e64c8;
+}
+.designer-description {
+font-weight : 400;
+}
+.designer-quote {
+font-style : italic;
+}
+.button-container {
+display : flex;
+justify-content : flex-end;
+}
+.card-button {
+background-color : #1030bc;
+color : #e4ebff;
+border-style : none;
+}
+
+@media  screen and (max-width: 769px)  {
+
+    .card-container {
+        display : flex;
+        flex-direction : column;
+        width : 100%;
+      
+    }
+    
+}
